@@ -51,8 +51,8 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
   play:
     play_as: "Jogar Como " # Ladder page
     spectate: "Assistir" # Ladder page
-    players: "jogadores" # Hover over a level on /play
-    hours_played: "horas jogadas" # Hover over a level on /play
+    players: "Jogadores" # Hover over a level on /play
+    hours_played: "Horas Jogadas" # Hover over a level on /play
     items: "Items" # Tooltip on item shop button from /play
 #    unlock: "Unlock" # For purchasing items and heroes
 #    confirm: "Confirm"
@@ -69,18 +69,18 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     change_hero: "Alterar Herói" # Go back from choose inventory to choose hero
     choose_inventory: "Equipar Items"
     buy_gems: "Comprar Gems"
-#    campaign_forest: "Forest Campaign"
-#    campaign_dungeon: "Dungeon Campaign"
-#    subscription_required: "Subscription Required"
+    campaign_forest: "Campanha da Floresta"
+    campaign_dungeon: "Campanha da Masmorra"
+    subscription_required: "Inscrição Requerida"
 #    free: "Free"
-#    subscribed: "Subscribed"
-    older_campaigns: "Campanhas antigas"
+    subscribed: "Inscrito"
+    older_campaigns: "Campanhas Antigas"
     anonymous: "Jogador Anônimo"
     level_difficulty: "Dificuldade: "
     campaign_beginner: "Campanha Iniciante"
-#    awaiting_levels_adventurer_prefix: "We release five levels per week."
-#    awaiting_levels_adventurer: "Sign up as an Adventurer"
-#    awaiting_levels_adventurer_suffix: "to be the first to play new levels."
+    awaiting_levels_adventurer_prefix: "Nós lançamos cinco níveis por semana."
+    awaiting_levels_adventurer: "Entrar como um Aventureiro"
+    awaiting_levels_adventurer_suffix: "Para ser o primeiro a jogar novos níveis."
     choose_your_level: "Escolha seu estágio" # The rest of this section is the old play view at /play-old and isn't very important.
     adventurer_prefix: "Você pode ir para qualquer um dos estágios abaixo, ou discutir sobre eles no "
     adventurer_forum: "Fórum do Aventureiro"
@@ -179,7 +179,7 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     medium: "Médio"
     hard: "Difícil"
     player: "Jogador"
-#    player_level: "Level" # Like player level 5, not like level: Dungeons of Kithgard
+    player_level: "Nível"
 
   units:
     second: "segundo"
@@ -200,7 +200,7 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
   play_level:
     done: "Pronto"
     home: "Início" # Not used any more, will be removed soon.
-#    level: "Level" # Like "Level: Dungeons of Kithgard"
+    level: "Fase" # Like "Level: Dungeons of Kithgard"
     skip: "Pular"
     game_menu: "Menu do Jogo"
     guide: "Guia"
@@ -227,7 +227,7 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     victory_rate_the_level: "Avalie o estágio: " # Only in old-style levels.
     victory_return_to_ladder: "Retornar para a Ladder"
     victory_play_continue: "Continue"
-#    victory_saving_progress: "Saving Progress"
+    victory_saving_progress: "Salvando o Progresso"
     victory_go_home: "Ir à página inicial" # Only in old-style levels.
     victory_review: "Diga-nos mais!" # Only in old-style levels.
     victory_hour_of_code_done: "Terminou?"
